@@ -15,6 +15,8 @@ library(dplyr)
 ```{r}
 setwd("~/Desktop/Rents")
 zillow <- read_csv("Neighborhood_MedianRentalPrice_Studio.csv")
+# this is a data set I downloaded from Zillow that contains the median rental price by neighborhood for what appears to be major metropolitan areas
+zillow_seattle <- filter(zillow$City, )
 ```
 
 
